@@ -59,12 +59,30 @@ Ensure the following software is installed:
 Here’s an example of a test case that handles JavaScript alerts:
 ```java
 
-@Test  
-public void alertBoxButton() {  
-    driver.get("https://artoftesting.com/samplesiteforselenium");  
-    WebElement alertButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Generate Alert Box']")));  
-    alertButton.click();  
-    Alert alert = driver.switchTo().alert();  
-    System.out.println("Alert message: " + alert.getText());  
-    alert.accept();  
-}  
+@Test
+	public void alertButton() {
+
+		WebElement alertButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Generate Alert Box']")));
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView({ block:'center', inline:'center'});", alertButton);
+
+		action.moveToElement(alertButton).build().perform();
+		action.click().perform();
+		System.out.println("Alert Button is clicked");
+
+		Alert alert = driver.switchTo().alert();
+
+		String alertText = alert.getText();
+		System.out.println("Alert message is "+alertText);
+
+		alert.accept();
+		System.out.println("'OK' is selected from the alert pop-up");
+
+
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
