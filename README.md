@@ -24,7 +24,7 @@ Ensure the following software is installed:
 ## Setup and Execution
 1. Clone the repository:
    ```bash
-      git clone https://github.com/yourusername/selenium-demo-project.git  
+      git clone https://github.com/gugan-s6/selenium-demo-project.git  
       cd selenium-demo-project
 
 2. Install dependencies:
