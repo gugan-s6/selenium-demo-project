@@ -49,16 +49,16 @@ Ensure the following software is installed:
 - ```README.md```: Documentation for the project.
 
 ## Technologies Used
-- *Java*: Core language for automation scripts.
-Selenium WebDriver: Automation framework for interacting with browsers.
-TestNG: Testing framework for test case management and reporting.
-Maven: Build automation tool for dependency management.
-WebDriver Manager: Simplifies managing browser driver binaries.
-Example Code Snippet
+- **Java:** Core language for automation scripts.
+- **Selenium WebDriver:** Automation framework for interacting with browsers.
+- **TestNG:** Testing framework for test case management and reporting.
+- **Maven:** Build automation tool for dependency management.
+- **WebDriver Manager:** Simplifies managing browser driver binaries.
+  
+## Example Code Snippet
 Here’s an example of a test case that handles JavaScript alerts:
+```java
 
-java
-Copy code
 @Test  
 public void alertBoxButton() {  
     driver.get("https://artoftesting.com/samplesiteforselenium");  
