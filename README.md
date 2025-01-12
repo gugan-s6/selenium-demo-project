@@ -14,9 +14,8 @@ Automated test cases for interacting with web elements:
 - Utilizes TestNG for test management. 
 - Includes Maven for dependency management.
 
-##Prerequisites
+## Prerequisites
 Ensure the following software is installed:
-
 1.Java Development Kit (JDK) (version 8 or later)
 2.Maven (build automation tool)
 3.ChromeDriver, GeckoDriver, or other WebDriver binaries matching your browser versions.
