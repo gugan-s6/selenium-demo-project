@@ -86,7 +86,7 @@ Here’s an example of a test case that handles JavaScript alerts:
 			e.printStackTrace();
 		}
 	}
-
+```
 ## Future Enhancements
 - Add more test cases for advanced interactions.
 - Integrate ExtentReports for enhanced reporting.
