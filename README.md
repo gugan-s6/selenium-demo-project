@@ -1,5 +1,5 @@
 # selenium-demo-project
-Demo project to interact and test web elements and generating test reports using testNG 
+Demo project to interact and test web elements and generating test reports using testNG.
 This project demonstrates a suite of Selenium tests implemented using Java and TestNG. It is intended as a showcase for automation testing skills. 
 
 ## Features 
