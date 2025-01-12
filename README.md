@@ -23,17 +23,17 @@ Ensure the following software is installed:
 
 ## Setup and Execution
 1. Clone the repository:
-   //bash
+   ```bash
       git clone https://github.com/yourusername/selenium-demo-project.git  
       cd selenium-demo-project
 
 2. Install dependencies:
-   //bash
+   ```bash
       mvn clean install
 
 4. Run the tests:
    Execute all tests using the TestNG XML file:
-      //bash
+      ```bash
          mvn test
 
 5. Generate Test Reports:
