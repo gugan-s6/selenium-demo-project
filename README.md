@@ -16,10 +16,10 @@ Automated test cases for interacting with web elements:
 
 ## Prerequisites
 Ensure the following software is installed:
-1.Java Development Kit (JDK) (version 8 or later)
-2.Maven (build automation tool)
-3.ChromeDriver, GeckoDriver, or other WebDriver binaries matching your browser versions.
-4.A supported browser such as Chrome, Firefox, or Edge.
+1. Java Development Kit (JDK) (version 8 or later)
+2. Maven (build automation tool)
+3. ChromeDriver, GeckoDriver, or other WebDriver binaries matching your browser versions.
+4. A supported browser such as Chrome, Firefox, or Edge.
 
  ## Setup and Execution 
 1. Clone the repository.
