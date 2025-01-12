@@ -86,3 +86,13 @@ Here’s an example of a test case that handles JavaScript alerts:
 			e.printStackTrace();
 		}
 	}
+
+## Future Enhancements
+- Add more test cases for advanced interactions.
+- Integrate ExtentReports for enhanced reporting.
+- Include parallel test execution using TestNG.
+- Enable cross-browser testing.
+
+## Author
+Gugan Subramani
+Connect with me on [LinkedIn](https://www.linkedin.com/in/gugan-subramani) or visit my [Upwork Profile](https://www.upwork.com/freelancers/~01e176dd2a65070879?s=1313512633755545600).
