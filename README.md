@@ -41,9 +41,4 @@ Ensure the following software is installed:
    Open test-output/index.html in a browser to view the results.
 
 ## File Structure
-- src/test/java: Contains the test classes.
-   - DemoTest1.java: Core Selenium test class demonstrating interactions with web elements.
-   - ParentClass.java: Base class for setting up WebDriver, common configurations, and utilities.
-- pom.xml: Maven configuration file for managing dependencies.
-- testNG.xml: TestNG configuration file for organizing and running test suites.
-- README.md: Documentation for the project.
+selenium-demo-project/ ├── src/ │ ├── test/ │ │ ├── java/ │ │ │ ├── DemoTest1.java # Core Selenium test class │ │ │ ├── ParentClass.java # Base class for WebDriver setup and utilities ├── pom.xml # Maven configuration file for managing dependencies. ├── testNG.xml # TestNG configuration file for running test suites. ├── README.md # Documentation for the project.
