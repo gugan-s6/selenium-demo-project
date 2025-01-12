@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite">
+    <!-- Define the suite name -->
+
+    <test name="Test1">
+        <!-- Define the test name -->
+        <classes>
+            <!-- Define the test class to run -->
+            <class name="Test.Test1">
+            </class>
+        </classes>
+    </test>
+</suite>
