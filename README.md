@@ -6,13 +6,13 @@ This project demonstrates a suite of Selenium tests implemented using Java and T
 Automated test cases for interacting with web elements: 
 - Hyperlink testing 
 - Textbox interaction 
--Button clicks 
--Alert handling 
--Dropdown selection 
--Radio buttons and checkboxes 
--Drag-and-drop operations 
--Utilizes TestNG for test management. 
--Includes Maven for dependency management.
+- Button clicks 
+- Alert handling 
+- Dropdown selection 
+- Radio buttons and checkboxes 
+- Drag-and-drop operations 
+- Utilizes TestNG for test management. 
+- Includes Maven for dependency management.
 
  ## Setup and Execution 
 1. Clone the repository.
