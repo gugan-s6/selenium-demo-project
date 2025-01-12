@@ -4,8 +4,8 @@ This project demonstrates a suite of Selenium tests implemented using Java and T
 
 ## Features 
 Automated test cases for interacting with web elements: 
--Hyperlink testing 
--Textbox interaction 
+- Hyperlink testing 
+- Textbox interaction 
 -Button clicks 
 -Alert handling 
 -Dropdown selection 
