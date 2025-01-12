@@ -1,4 +1,4 @@
-### selenium-demo-project
+### Selenium-demo-project
 Demo project to interact and test web elements and generating test reports using testNG.
 This project demonstrates a suite of Selenium tests implemented using Java and TestNG. It is intended as a showcase for automation testing skills. 
 
@@ -39,3 +39,11 @@ Ensure the following software is installed:
 5. Generate Test Reports:
    TestNG will generate default test reports in the test-output folder.
    Open test-output/index.html in a browser to view the results.
+
+## File Structure
+- src/test/java: Contains the test classes.
+   - DemoTest1.java: Core Selenium test class demonstrating interactions with web elements.
+   - ParentClass.java: Base class for setting up WebDriver, common configurations, and utilities.
+- pom.xml: Maven configuration file for managing dependencies.
+- testNG.xml: TestNG configuration file for organizing and running test suites.
+- README.md: Documentation for the project.
