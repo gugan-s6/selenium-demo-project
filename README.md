@@ -1,4 +1,4 @@
-# selenium-demo-project
+### selenium-demo-project
 Demo project to interact and test web elements and generating test reports using testNG.
 This project demonstrates a suite of Selenium tests implemented using Java and TestNG. It is intended as a showcase for automation testing skills. 
 
@@ -23,19 +23,19 @@ Ensure the following software is installed:
 
 ## Setup and Execution
 1. Clone the repository:
-bash
-git clone https://github.com/yourusername/selenium-demo-project.git  
-cd selenium-demo-project
+   //bash
+      git clone https://github.com/yourusername/selenium-demo-project.git  
+      cd selenium-demo-project
 
 2. Install dependencies:
-bash
-mvn clean install
+   //bash
+      mvn clean install
 
 4. Run the tests:
    Execute all tests using the TestNG XML file:
-bash
-mvn test
+      //bash
+         mvn test
 
 5. Generate Test Reports:
-TestNG will generate default test reports in the test-output folder.
-Open test-output/index.html in a browser to view the results.
+   TestNG will generate default test reports in the test-output folder.
+   Open test-output/index.html in a browser to view the results.
