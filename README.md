@@ -21,9 +21,21 @@ Ensure the following software is installed:
 3. ChromeDriver, GeckoDriver, or other WebDriver binaries matching your browser versions.
 4. A supported browser such as Chrome, Firefox, or Edge.
 
- ## Setup and Execution 
-1. Clone the repository.
-2. Install dependencies: 
+## Setup and Execution
+1. Clone the repository:
+bash
+git clone https://github.com/yourusername/selenium-demo-project.git  
+cd selenium-demo-project
 
-  ```bash 
-      mvn clean install
+2. Install dependencies:
+bash
+mvn clean install
+
+4. Run the tests:
+   Execute all tests using the TestNG XML file:
+bash
+mvn test
+
+5. Generate Test Reports:
+TestNG will generate default test reports in the test-output folder.
+Open test-output/index.html in a browser to view the results.
