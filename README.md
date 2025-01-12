@@ -47,3 +47,24 @@ Ensure the following software is installed:
 - ```pom.xml```: Maven configuration file for managing dependencies.
 - ```testNG.xml```: TestNG configuration file for organizing and running test suites.
 - ```README.md```: Documentation for the project.
+
+## Technologies Used
+- *Java*: Core language for automation scripts.
+Selenium WebDriver: Automation framework for interacting with browsers.
+TestNG: Testing framework for test case management and reporting.
+Maven: Build automation tool for dependency management.
+WebDriver Manager: Simplifies managing browser driver binaries.
+Example Code Snippet
+Here’s an example of a test case that handles JavaScript alerts:
+
+java
+Copy code
+@Test  
+public void alertBoxButton() {  
+    driver.get("https://artoftesting.com/samplesiteforselenium");  
+    WebElement alertButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Generate Alert Box']")));  
+    alertButton.click();  
+    Alert alert = driver.switchTo().alert();  
+    System.out.println("Alert message: " + alert.getText());  
+    alert.accept();  
+}  
